@@ -1,2 +1,4 @@
 mason_packages
 test
+/buck-out/
+/.buckd/

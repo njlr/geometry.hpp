@@ -1,0 +1,19 @@
+cxx_binary(
+  name = 'test', 
+  srcs = [
+    'test.cpp', 
+  ], 
+  deps = [
+    '//:geometry', 
+  ], 
+)
+
+cxx_binary(
+  name = 'collection', 
+  srcs = [
+    'collection.cpp', 
+  ], 
+  deps = [
+    '//:geometry', 
+  ], 
+)

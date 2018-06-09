@@ -1,0 +1,5 @@
+target = "//:geometry"
+
+[[dependency]]
+name = "github.com/njlr/mapbox-variant"
+version = "branch=master"
